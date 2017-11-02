@@ -34,7 +34,7 @@ We applied different machine learning methods, such as Decision Tree, AdaBoostin
 Support Vector Machine (SVM), and artificial neural networks (ANN). Achieved >98% precision.
 
 We used random search techniques such as Randomized Hill Climbing, Simulated Annealing, and Genetic Algorithm
-instead of backpropagation to find the optimal weights for neural networks. Achieved similar results as backpropagation.
+instead of backpropagation to find the optimal weights for neural networks. Achieved similar performance as backpropagation.
 
 We implemented dimensionality reduction techniques (PCA, ICA and Randomized Projections) to run the neural
-network and achieved a similar precision but saved 80% of the running time.
+network. Achieved a similar precision but saved 80% of the running time.
