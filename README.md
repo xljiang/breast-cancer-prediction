@@ -18,9 +18,23 @@ http://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28diagnostic%29
 ### Data Processing, Supervised Learning, Hyperparameter Tuning
 - cancer.ipynb
 
+### Unsupervised Learning and Dimensionly Reduction
+- cancer_dr.ipynb
+
 ### Randomized Optimization for neural networks
 - RHC4BC.java - Code for Randomised Hill Climbing training of neural network
 - SA4BC.java - Code for Simulated Annealing training of neural network
 - GA4BC.java - Code for Genetic Algorithm training of neural network
 - BCTest.java - Code for Optimized parameters for 3 algos, as well as error.
 
+
+## Result
+
+We applied different machine learning methods, such as Decision Tree, AdaBoosting, k-nearest neighbor (KNN),
+Support Vector Machine (SVM), and artificial neural networks (ANN). Achieved >98% precision.
+
+We used random search techniques such as Randomized Hill Climbing, Simulated Annealing, and Genetic Algorithm
+instead of backpropagation to find the optimal weights for neural networks. Achieved similar results as backpropagation.
+
+We implemented dimensionality reduction techniques (PCA, ICA and Randomized Projections) to run the neural
+network and achieved a similar precision but saved 80% of the running time.
