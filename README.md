@@ -12,16 +12,16 @@ http://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28diagnostic%29
 
 ## Code
 
-### Train Test dataset spliting:
+#### Train Test dataset spliting:
 - split_train_test.ipynb
 
-### Data Processing, Supervised Learning, Hyperparameter Tuning
-- cancer.ipynb
+#### Data Processing, Supervised Learning, Hyperparameter Tuning
+- cancer.ipynb (Decision Tree, Boosting, kNN, SVM, Neural Networks)
 
-### Unsupervised Learning and Dimensionly Reduction
-- cancer_dr.ipynb
+#### Unsupervised Learning and Dimensionly Reduction
+- cancer_dr.ipynb (PCA, ICA, Random Projection)
 
-### Randomized Optimization for neural networks
+#### Randomized Optimization for neural networks
 - RHC4BC.java - Code for Randomised Hill Climbing training of neural network
 - SA4BC.java - Code for Simulated Annealing training of neural network
 - GA4BC.java - Code for Genetic Algorithm training of neural network
